@@ -5,12 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>chat con node</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <style>
-        form { background: rgba(0,0,0,.15); padding: 0.25rem; position:fixed; bottom: 0; left: 0; display: flex; height: 3rem; width: 100%; box-sizing: border-box;}
-        ul{list-style-type: none; margin: 0; padding: 0;}
-        ul>li { padding: 0.5rem 1rem}
-        ul>li:nth-child(odd){ background: #dcf8c6; text-align: right; font-style: italic; font-weight: 600;}
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
    <ul class="list-group"></ul>
@@ -21,7 +16,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="http://localhost:3000/socket.io/socket.io.js"></script>
-    <!-- <script src="/socket.io/socket.io.js"></script> -->
 
     <script>
         let socket = io()
@@ -45,3 +39,5 @@
     </script>
   </body>
 </html>
+
+
