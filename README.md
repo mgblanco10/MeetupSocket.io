@@ -12,3 +12,6 @@ Es una biblioteca de JavaScript, que permite la comunicación en tiempo real ent
 👇
 https://socket.io/
 
+### Nota: 
+Para este proyecto no se necesita instalaciones, ni conocimientos previos
+
